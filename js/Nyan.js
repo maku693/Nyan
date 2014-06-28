@@ -61,7 +61,6 @@ Nyan.loadNyanCount = function() {
   if (nyanCountObj) {
     this.nyanCount = 0;
     this.nyanCount = nyanCountObj;
-    console.log(this.nyanCount);
   } else {
     this.nyanCount = 0;
   }
