@@ -74,7 +74,7 @@ Nyan.storeNyanCount = function() {
 
 Nyan.addItem = function(bgColor) {
   var liElem = document.createElement('li');
-  liElem.style.background = bgColor + ' url(/img/nyan.gif)';
+  liElem.style.background = bgColor + ' url(./img/nyan.gif)';
   liElem.style.backgroundPosition = 'center center';
   liElem.style.backgroundRepeat = 'no-repeat';
   this.listItemsWrapperElem.appendChild(liElem);
