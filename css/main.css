@@ -1,0 +1,60 @@
+/* main.css */
+
+html { font-family:'Montserrat',sans-serif; -ms-text-size-adjust:100%; -webkit-text-size-adjust:100%; }
+body { margin:0; }
+section { display:block; }
+
+
+body {
+  font-size: 36px;
+  font-weight: 400;
+  background-color: #0f4d8f;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+#nyan--list-view {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+#nyan--list-view li {
+  height: 96px;
+  line-height: 96px;
+  -moz-animation: slideIn 0.3s ease;
+  -webkit-animation: slideIn 0.3s ease;
+  -ms-animation: slideIn 0.3s ease;
+  animation: slideIn 0.3s ease;
+}
+
+@-moz-keyframes slideIn {
+  0%{ height: 0; }
+  100% { height: 96px; }
+}
+
+@-webkit-keyframes slideIn {
+  0%{ height: 0; }
+  100% { height: 96px; }
+}
+
+@-ms-keyframes slideIn {
+  0%{ height: 0; }
+  100% { height: 96px; }
+}
+
+@keyframes slideIn {
+  0%{ height: 0; }
+  100% { height: 96px; }
+}
+
+.add-item, .remove-all-items {
+  height: 96px;
+  cursor: pointer;
+}
+
+.add-item {
+  background-color: #fff;
+  color: #0f4d8f;
+}
