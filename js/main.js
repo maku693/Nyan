@@ -1,3 +1,3 @@
-// window.addEventListener('load', function(){
+window.addEventListener('load', function(){
   var app = Nyan.app('#nyan--list-view');
-// });
+});
