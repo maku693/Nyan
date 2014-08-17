@@ -2,15 +2,6 @@
 
 A progress management tool for next generation
 
-## How to install
+<http://maku693.github.io/Nyan/>
 
-### PC
-Just download zip, and decompress. Then open index.html.
-
-### Smart phones
-
-#### Android
-Copy decompressed folder to storage.
-
-#### iPhone
-Not yet.
+[Nyan: A progress management tool for next generation](https://speakerdeck.com/maku693/nyan-a-progress-management-tool-for-next-generation)
