@@ -66,6 +66,12 @@ Nyan.loadNyanCount = function() {
   }
 };
 
+// Nyan.loadMeow = function() {
+// }
+
+// Nyan.playMeow = function() {
+// }
+
 Nyan.storeNyanCount = function() {
   window.localStorage.removeItem('nyanCount');
   window.localStorage.setItem('nyanCount', this.nyanCount);
